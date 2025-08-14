@@ -66,10 +66,13 @@ button{
   border: none;
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
 }
 button:hover{
   background-color: white;
   color: black;
+  transition: 0.5s;
+  
 }
 .right{
   display: flex;
@@ -88,13 +91,111 @@ button:hover{
 .tel>h1{
   font-size: 14px;
   padding-left: 10px;
+  font-weight: 400;
 
 }
 .banner{
   width: 100%;
-  height: 9500px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.banner-left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px   ;
+}
+.banner-left > h1 {
+  font-size: 52px;
+  font-weight: 900;
+  
+}
+.banner-left > p{
+  font-weight: 500;
+  font-size: 16px;
+  
 }
 .ww2{
   width: 54px;
   height: 54px;
+}
+.e34{
+  width: 816px;
+  
+}
+.delivery{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 129px 319px;
+
+}
+.delivery > h1{
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+
+}
+.delivery > p{
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+
+}
+.delivery > button{
+  margin: 20px;
+
+
+}
+.container{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+.card{
+  width: 411px;
+  height: 244px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  
+}
+.card > h1{
+  font-weight: 700;
+  font-size: 36px;
+}
+.key{
+  width: 92px;
+  height: 82px;
+  position: absolute;
+  right: 30px;
+  bottom: 18px;
+}
+.card > p{
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.bmw34{
+  width: 221px;
+  height: 180px;
+  position: absolute;
+  right: 30px;
+  bottom: -20px;
+}
+.image{
+  width: 221px;
+  height: 127px;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
 }
