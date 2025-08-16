@@ -8,7 +8,7 @@ import { FaYoutube } from "react-icons/fa";
 
 function Navbar() {
     return (
-        <nav >
+        <nav>
 
 
             <div className="left">
@@ -38,7 +38,7 @@ function Navbar() {
             </ul>
             <div className="right">
                 <FaTelegram className='icon' />
-                <FaInstagram  className='icon'/>
+                <FaInstagram className='icon' />
                 <FaYoutube className='icon' />
                 <div className="tel">
                     <h1>+ 998 99 859 00 37</h1>
