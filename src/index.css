@@ -1,20 +1,23 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s;
 }
-body{
+
+body {
   background-image: url('https://www.norclassics.com/wp-content/uploads/2020/08/MG_3720.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-background-attachment: fixed;
+  background-attachment: fixed;
 
 
 }
 
-nav{
+nav {
 
   width: 100%;
   height: 64px;
@@ -22,42 +25,49 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding: 20px 30px;
-  border-radius: 8px;
-  position:sticky;
+  position: sticky;
   top: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.179); /* Yengil oq shaffoflik */
-  backdrop-filter: blur(12px) saturate(150%); /* Orqa fonni xiralashtirish va ranglarni kuchaytirish */
+  background: rgba(255, 255, 255, 0.179);
+  backdrop-filter: blur(12px) saturate(150%);
   -webkit-backdrop-filter: blur(12px) saturate(150%);
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Yengil oq chiziq */
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Yengil soya */
-  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s;
 
 }
-.left{
+
+.left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.ww{
+
+.ww {
   width: 48px;
   height: 48px;
 }
-ul{
+
+ul {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-ul >li>a{
-color: white;
+
+ul>li>a {
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s;
+
   font-size: 18px;
-  font-family:'inter';
+  font-family: 'inter';
   font-weight: 400;
 
 }
-button{
+
+button {
   width: 200px;
   height: 54px;
   border-radius: 8px;
@@ -68,64 +78,76 @@ button{
   font-size: 16px;
   cursor: pointer;
 }
-button:hover{
+
+button:hover {
   background-color: white;
   color: black;
   transition: 0.5s;
-  
+
 }
-.right{
+
+.right {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.icon{
+
+.icon {
   width: 28px;
-  height:28px;
+  height: 28px;
   cursor: pointer;
 }
-.tel{
+
+.tel {
   display: flex;
   flex-direction: column;
 }
-.tel>h1{
+
+.tel>h1 {
   font-size: 14px;
   padding-left: 10px;
   font-weight: 400;
 
 }
-.banner{
+
+.banner {
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
 }
-.banner-left{
+
+.banner-left {
   display: flex;
   flex-direction: column;
-  gap: 20px   ;
+  gap: 20px;
 }
-.banner-left > h1 {
+
+.banner-left>h1 {
   font-size: 52px;
   font-weight: 900;
-  
+
 }
-.banner-left > p{
+
+.banner-left>p {
   font-weight: 500;
   font-size: 16px;
-  
+
 }
-.ww2{
+
+.ww2 {
   width: 54px;
   height: 54px;
 }
-.e34{
+
+.e34 {
   width: 816px;
-  
+
 }
-.delivery{
+
+.delivery {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -134,30 +156,35 @@ button:hover{
   padding: 129px 319px;
 
 }
-.delivery > h1{
+
+.delivery>h1 {
   font-size: 40px;
   color: white;
   font-weight: 800;
 
 }
-.delivery > p{
+
+.delivery>p {
   font-size: 24px;
   color: white;
   font-weight: 400;
 
 }
-.delivery > button{
+
+.delivery>button {
   margin: 20px;
 
 
 }
-.container{
+
+.container {
   display: flex;
   align-items: center;
   gap: 25px;
 
 }
-.card{
+
+.card {
   width: 411px;
   height: 244px;
   background-color: white;
@@ -167,32 +194,37 @@ button:hover{
   flex-direction: column;
   gap: 24px;
   position: relative;
-  
+
 }
-.card > h1{
+
+.card>h1 {
   font-weight: 700;
   font-size: 36px;
 }
-.key{
+
+.key {
   width: 92px;
   height: 82px;
   position: absolute;
   right: 30px;
   bottom: 18px;
 }
-.card > p{
+
+.card>p {
   font-weight: 400;
   font-size: 16px;
 
 }
-.bmw34{
+
+.bmw34 {
   width: 221px;
-  height: 180px;
+  height: 230px;
   position: absolute;
   right: 30px;
-  bottom: -20px;
+  bottom: -35px;
 }
-.image{
+
+.image {
   width: 221px;
   height: 127px;
   position: absolute;
